@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o ícone do menu sanduíche */
+.menu-icon {
+  display: none; /* Oculta o ícone em telas grandes */
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #8f8f8f;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+/* Estilos para o menu */
+nav {
+  margin: 25px;
+  padding: 16px;
+}
+
+.menuItems {
+  list-style: none;
+  display: flex;
+}
+
+.menuItems li {
+  margin: 50px;
+}
+
+.menuItems li a {
+  text-decoration: none;
+  color: #8f8f8f;
+  font-size: 18px;
+  font-weight: 200;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.menuItems li a::before {
+  content: attr(data-item);
+  transition: 0.5s;
+  color: #38495a;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.menuItems li a:hover::before {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex; /* Exibe o ícone em telas pequenas */
+  }
+
+  .menuItems {
+    display: none; /* Oculta o menu em telas pequenas */
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .menu.open .menuItems {
+    display: flex; /* Exibe o menu quando está aberto */
+  }
+
+  .menuItems li {
+    margin: 20px 0; /* Ajusta o espaçamento entre os itens */
+  }
+}
