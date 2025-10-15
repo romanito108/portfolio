@@ -8,9 +8,9 @@ import Servicos from "./Servicos";
 import Contato from "./Contato";
 
 import CursorEffect from "./CursorEffect";
-import "./global.css";
-import "./stars.scss";
-import "./menu.css";
+import "./Global.css";
+import "./Stars.scss";
+import "./Menu.css";
 
 function App() {
   const [loading, setLoading] = useState(true);
