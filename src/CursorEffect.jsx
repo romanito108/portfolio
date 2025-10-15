@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./cursor.css"; // Importa o CSS que cria o visual do cursor
+import "./Cursor.css"; // Importa o CSS que cria o visual do cursor
 
 function CursorEffect() {
   useEffect(() => {
