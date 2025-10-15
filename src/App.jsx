@@ -3,9 +3,9 @@ import Menu from "./Menu";
 import "@fortawesome/fontawesome-free/css/all.min.css"; 
 import Spinner from "./Spinner";
 import Sobre from "./Sobre";
-import Projetos from "./projetos";
-import Servicos from "./servicos";
-import Contato from "./contato";
+import Projetos from "./Projetos";
+import Servicos from "./Servicos";
+import Contato from "./Contato";
 
 import CursorEffect from "./CursorEffect";
 import "./global.css";
