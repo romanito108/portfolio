@@ -1,5 +1,5 @@
 import React from "react";
-import "./global.css"; // Importe o CSS do spinner
+import "./Global.css"; // Importe o CSS do spinner
 
 const Spinner = () => {
   return (
