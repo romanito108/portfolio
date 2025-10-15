@@ -1,5 +1,5 @@
 import React from "react";
-import "./servicos.css";
+import "./Servicos.css";
 
 function Servicos() {
 const services = [
