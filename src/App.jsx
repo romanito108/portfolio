@@ -4,8 +4,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Spinner from "./Spinner";
 import Sobre from "./Sobre";
 import Projetos from "./Projetos";
-import Servicos from "./servicos";
-import Contato from "./contato";
+import Servicos from "./Servicos"; // Corrigido para maiúscula
+import Contato from "./Contato";   // Corrigido para maiúscula
 import CursorEffect from "./CursorEffect";
 import "./global.css";
 import "./stars.scss";
@@ -33,7 +33,6 @@ function App() {
     <div className="app-container">
       <CursorEffect />
       {loading ? (
-        
         <Spinner />
       ) : (
         <>
@@ -53,10 +52,8 @@ function App() {
                 <div id="title">
                   <span>Boas-vindas ao meu portfólio</span>
                   <div id="subtitle">
-                    <span> 
-                   Sou o Diego Roman, desenvolvedor Front especializado em experiências digitais.</span>
-                  
-                  <span>  Navegue pelo site para conhecer mais sobre meu trabalho!</span>
+                    <span>Sou o Diego Roman, desenvolvedor Front especializado em experiências digitais.</span>
+                    <span>Navegue pelo site para conhecer mais sobre meu trabalho!</span>
                   </div>
                 </div>
               </div>
