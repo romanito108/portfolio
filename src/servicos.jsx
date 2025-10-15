@@ -2,38 +2,40 @@ import React from "react";
 import "./servicos.css";
 
 function Servicos() {
-  const services = [
-    {
-      icon: "fa-chrome",
-      title: "Web Development",
-      description: "Lorem ipsum dolor sit amet, consectetuer adipiscing portfolio student website"
-    },
-    {
-      icon: "fa-instagram",
-      title: "Web Design",
-      description: "Lorem ipsum dolor sit amet, student graphic design portfolio websites euismod"
-    },
-    {
-      icon: "fa-reddit",
-      title: "Creative Design",
-      description: "Lorem ipsum dolor sit amet, student portfolio website examples nonummy nibh euismod"
-    },
-    {
-      icon: "fa-video-camera",
-      title: "Video Editing",
-      description: "student portfolio website, consectetuer adipiscing elitsed nonummy nibh euismod"
-    },
-    {
-      icon: "fa-camera",
-      title: "Photography",
-      description: "portfolio website examples for students adipiscing elitsed nonummy nibh euismod"
-    },
-    {
-      icon: "fa-apple",
-      title: "App Developing",
-      description: "digital portfolio websites for students adipiscing elitsed nonummy nibh euismod"
-    }
-  ];
+const services = [
+  {
+    icon: "fa-code",
+    title: "Desenvolvimento Web",
+    description: "Criação de sites modernos, rápidos e responsivos em JavaScript."
+  },
+  {
+    icon: "fa-pencil-ruler",
+    title: "Web Design",
+    description: "Layout personalizado, UI/UX focado em usabilidade e experiência do usuário."
+  },
+  {
+    icon: "fa-camera",
+    title: "Edição de Fotos",
+    description: "Tratamento de imagens e otimização visual para web e redes sociais."
+  },
+  {
+    icon: "fa-video",
+    title: "Edição de Vídeos",
+    description: "Edição criativa e profissional para apresentações, reels e websites."
+  },
+
+{
+  icon: "fa-tools",
+  title: "Manutenção & Suporte",
+  description: "Atualizações, correções e suporte contínuo para manter seu site sempre no ar."
+},
+
+{
+  icon: "fa-plug",
+  title: "Integrações Web",
+  description: "Conexão do site com APIs, formulários e redes sociais."
+}
+];
 
   return (
     <div className="main-section" id="servicos">

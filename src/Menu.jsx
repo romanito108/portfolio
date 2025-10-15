@@ -40,25 +40,25 @@ function Menu({ onNavigate }) {
           <li>
             <a 
               href='#' 
-              data-item='About'
+              data-item='Sobre'
               onClick={(e) => {
                 e.preventDefault();
                 handleMenuItemClick('sobre');
               }}
             >
-              About
+             Sobre
             </a>
           </li>
           <li>
             <a 
               href='#' 
-              data-item='Projects'
+              data-item='Projetos'
               onClick={(e) => {
                 e.preventDefault();
                 handleMenuItemClick('projetos');
               }}
             >
-              Projects
+              Projetos
             </a>
           </li>
 
@@ -76,6 +76,18 @@ function Menu({ onNavigate }) {
           </li>
 
 
+   <li>
+            <a 
+              href='#' 
+              data-item='Contato'
+              onClick={(e) => {
+                e.preventDefault();
+                handleMenuItemClick('contato');
+              }}
+            >
+          Contato
+            </a>
+          </li>
 
 
 

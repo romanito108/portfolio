@@ -48,7 +48,7 @@ nav {
 .menuItems li a::before {
   content: attr(data-item);
   transition: 0.5s;
-  color: #38495a;
+  color: #acbecf;
   position: absolute;
   top: 0;
   bottom: 0;

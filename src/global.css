@@ -1,11 +1,35 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
 /* Garanta que o corpo da página tenha fundo preto */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
   background: #000;
+   cursor: none !important;
 }
+
+input, textarea {
+  cursor: text !important;
+}
+
+/* Esconde o cursor padrão em tudo */
+* {
+  cursor: none !important;
+}
+
+/* Garante que links, botões e inputs não mostrem o cursor padrão */
+a, button, input, textarea {
+  cursor: none !important;
+}
+
 
 /* Container principal */
 .app-container {
@@ -116,6 +140,7 @@ html, body {
   -webkit-text-fill-color: transparent;
   animation: fadeInScale 5.0s ease-in-out;
   display: block; /* Garante que cada span ocupe uma linha */
+  font-size: 20px;
 }
 
 @keyframes fadeInScale {

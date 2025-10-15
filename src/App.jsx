@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Menu from "./Menu";
+import "@fortawesome/fontawesome-free/css/all.min.css"; 
 import Spinner from "./Spinner";
 import Sobre from "./sobre";
 import Projetos from "./Projetos";
 import Servicos from "./servicos";
-
+import Contato from "./contato";
+import CursorEffect from "./CursorEffect";
 import "./global.css";
 import "./stars.scss";
 import "./menu.css";
@@ -29,7 +31,9 @@ function App() {
 
   return (
     <div className="app-container">
+      <CursorEffect />
       {loading ? (
+        
         <Spinner />
       ) : (
         <>
@@ -47,9 +51,12 @@ function App() {
             <div className={`intro-screen ${!activeSection ? 'visible' : 'hidden'}`}>
               <div className="intro-container">
                 <div id="title">
-                  <span>Oi, eu sou o Diego</span>
+                  <span>Boas-vindas ao meu portfólio</span>
                   <div id="subtitle">
-                    <span>Bem-vindo ao meu Portfolio</span>
+                    <span> 
+                   Sou o Diego Roman, desenvolvedor Front especializado em experiências digitais.</span>
+                  
+                  <span>  Navegue pelo site para conhecer mais sobre meu trabalho!</span>
                   </div>
                 </div>
               </div>
