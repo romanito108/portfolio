@@ -12,7 +12,7 @@ function Projetos() {
       link: "https://erickakellner.com.br" // exemplo
     },
     // {
-    //   icon: "fa-pencil-ruler",
+    //   
     //   title: "Larvie",
     //   description:
     //     "A loja de roupas Larvie foi feita pela Shopify. A loja foi desenvolvida com layout também editado no código fonte da plataforma.",
@@ -20,7 +20,7 @@ function Projetos() {
     //   link: "https://larvie.com.br" // exemplo
     // },
     {
-      icon: "fa-camera",
+
       title: "Salomão Advogados",
       description:
         "Foi o meu primeiro projeto, por estar começando, usei HTML e CSS puro para criar o site do escritório de advocacia.",
@@ -28,7 +28,7 @@ function Projetos() {
       link: "https://salomaoadvs.com.br/" // exemplo
     },
     {
-      icon: "fa-video",
+   
       title: "Volos Comunicação",
       description:
         "Usando minha experiência com JavaScript, desenvolvi uma landing page para a empresa de comunicação.",
@@ -36,7 +36,7 @@ function Projetos() {
       link: "https://voloscomunicacao.com.br/" // exemplo
     },
     {
-      icon: "fa-tools",
+      
       title: "EQS Corretora",
       description:
         "A pedido da cliente, desenvolvi uma interface básica sobre as áreas em que a Corretora atua.",
