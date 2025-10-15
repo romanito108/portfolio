@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Menu from "./Menu";
 import "@fortawesome/fontawesome-free/css/all.min.css"; 
 import Spinner from "./Spinner";
-import Sobre from "./sobre";
+import Sobre from "./Sobre";
 import Projetos from "./Projetos";
 import Servicos from "./servicos";
 import Contato from "./contato";
