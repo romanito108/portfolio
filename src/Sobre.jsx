@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./sobre.css"; // Importando o CSS
+import "./Sobre.css"; // Importando o CSS
 
 
 function Sobre() {
