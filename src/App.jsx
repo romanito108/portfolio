@@ -6,7 +6,10 @@ import Sobre from "./sobre";
 import Projetos from "./projetos";
 import Servicos from "./servicos";
 import Contato from "./contato";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4bd11cdc44faff674c4f8724476923a480b93ea2
 import CursorEffect from "./CursorEffect";
 import "./global.css";
 import "./stars.scss";
