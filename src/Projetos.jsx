@@ -4,7 +4,7 @@ import "./Projetos.css";
 function Projetos() {
   const Projetos = [
     {
-      icon: "fa-code",
+      
       title: "Ericka Kellner",
       description:
         "Criei a interface do site da publicitária Ericka Kellner. As orientações e formato foram todas conversadas organizadas com a própria profissonal. O site foi desenvolvido através da Wordpress",
