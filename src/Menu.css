@@ -21,9 +21,12 @@
 }
 
 /* Estilos para o menu */
+/* Estilos para o menu */
 nav {
   margin: 25px;
   padding: 16px;
+    position: relative; /* Garante que o z-index funcione */
+  z-index: 1000; /* Fica acima de quase tudo */
 }
 
 .menuItems {
